@@ -13,9 +13,9 @@ addEventListener("DOMContentLoaded", function(){
             document.body.appendChild(this.nodo);
         },
         ventana : function(){
-            let ventana = open("html","","");
+            let ventana = open("prueba.html","","");
             let script = document.createElement("SCRIPT");
-            script.src = "SubScript/main.js";
+            script.src = "https://comfenalcocursos2021.github.io/Ejercicio_Ventana_26_06_2021/SubScript/main.js";
             ventana.addEventListener("DOMContentLoaded", function(){
                 ventana.document.head.appendChild(script);
             });
